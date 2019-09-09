@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+ <suite name=" Automation Test" parallel="false" >
+    <parameter name="url" value="https://www2.hm.com/en_us/index.html"/>
+
+
+    <test name = "Ecommerce Home">
+        <classes>
+
+            <class name="PageObject.Homepage"/>
+            <class name="PageobjectTest.HomepageTest"/>
+
+        </classes>
+
+
+    </test>
+
+</suite>
