@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="generic" />
         <module name="Zara_Ecommerce" />
+        <module name="Express" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Express" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
