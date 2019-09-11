@@ -11,6 +11,8 @@
     <modules>
         <module>Zara_Ecommerce</module>
         <module>generic</module>
+        <module>Express</module>
+        <module>Express</module>
     </modules>
 
     <dependencyManagement>
